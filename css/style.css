@@ -1,81 +1,59 @@
-/* First page */
-
-.nav-link.active {
-  color: #ffc107 !important; 
-  font-weight: bold;
+/* ----- Navbar Styling ----- */
+.navbar {
+  background-color: #2e3b4e !important;
 }
 .nav-link {
   color: #ffffff !important;
   margin-right: 15px;
   transition: color 0.3s ease;
 }
+.nav-link.active {
+  color: #ffc107 !important; 
+  font-weight: bold;
+}
 .nav-link:hover {
   color: #ffc107 !important;
 }
-.navbar {
-  background-color: #2e3b4e !important;
-}
 
+/* ----- Grid Custom Columns ----- */
+/* Index Page Custom Columns */
 .col-1-custom {
   background-color: #3d8a99; 
   padding: 20px;
-  color: #fff;
+  color: white;
   text-align: center;
 }
 .col-2-custom {
   background-color: #f3ba58; 
   padding: 20px;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .col-3-custom {
   background-color: #dd7169; 
   padding: 20px;
-  color: #000;
+  color: black;
   text-align: center;
 }
 
-
-/* Second Page */
+/* Page 2 & 3 Reuse These for Custom Columns */
 .custom-col-1 {
   background-color: #3d8a99; 
   padding: 20px;
   color: white;
 }
-
 .custom-col-2 {
   background-color: #f3ba58; 
   padding: 20px;
   color: white;
 }
-
 .custom-col-3 {
   background-color: #dd7169; 
   padding: 20px;
   color: white;
 }
 
-/* Third Page */
-.custom-col-1 {
-  background-color: #3d8a99; 
-  color: white;
-}
-
-.custom-col-2 {
-  background-color: #f3ba58; 
-  padding: 20px;
-  color: white;
-}
-
-.custom-col-3 {
-  background-color: #dd7169; 
-  padding: 20px;
-  color: white;
-}
-
-
-
-/* card */
+/* ----- Card Styling ----- */
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -85,7 +63,6 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
-/* Text improvements */
 .card-title {
   font-weight: 600;
   color: #000000;
@@ -94,13 +71,11 @@
   font-size: 0.95rem;
   color: #000000;
 }
-/* Primary button color override */
 .card .btn-primary {
   background-color: #218838;
   border-color: #28a745;
   color: white;
 }
-/* Hover effect */
 .card .btn-primary:hover {
   background-color: #1a702d; 
   border-color: #1e7e34;
@@ -108,12 +83,12 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Caption background styling for better readability */
+/* ----- Carousel Styling ----- */
+.carousel-item img {
+  border-radius: 10px;
+}
 .caption-bg {
   background-color: rgba(0, 0, 0, 0.6); 
   padding: 15px;
-  border-radius: 10px;
-}
-.carousel-item img {
   border-radius: 10px;
 }
