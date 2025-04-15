@@ -113,6 +113,79 @@
   color: #333;
 }
 
+/* ----- Card Styling ----- */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #000000;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.card .btn-primary {
+  background-color: #218838;
+  border-color: #28a745;
+  color: white;
+}
+
+.card .btn-primary:hover {
+  background-color: #1a702d;
+  border-color: #1e7e34;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* ----- Modal Styling (Optional Enhancements) ----- */
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-body img {
+  border-radius: 10px;
+  max-height: 250px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* ----- Text Enhancements for Headings ----- */
+.container h2 {
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
