@@ -50,6 +50,26 @@
   color: #333;
 }
 
+/* ----- Grid Custom Columns for page 2 & 3 ----- */
+.custom-col-1 {
+  background-color: #3d8a99;
+  padding: 20px;
+  color: white;
+}
+
+.custom-col-2 {
+  background-color: #f3ba58;
+  padding: 20px;
+  color: white;
+}
+
+.custom-col-3 {
+  background-color: #dd7169;
+  padding: 20px;
+  color: white;
+}
+
+
 
 /* Page 2 & 3 Reuse These for Custom Columns */
 .custom-col-1 {
