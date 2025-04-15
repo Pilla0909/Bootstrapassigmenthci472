@@ -40,10 +40,18 @@
   text-align: center;
 }
 
-footer {
+/* ===== Footer Styling ===== */
+.footer-custom {
+  color: #cccccc; /* soft grey text */
   font-size: 0.95rem;
   letter-spacing: 0.3px;
 }
+
+.footer-custom a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
 
 
 /* ===== Grid Columns – Page 2 & 3 ===== */
