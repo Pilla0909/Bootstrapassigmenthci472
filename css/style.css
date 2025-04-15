@@ -70,6 +70,54 @@
 }
 
 
+/* ----- Grid Custom Columns ----- */
+.custom-col-1 {
+  background-color: #3d8a99;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.custom-col-2 {
+  background-color: #f3ba58;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.custom-col-3 {
+  background-color: #dd7169;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+/* ----- Image Styling for Grid 3 ----- */
+.custom-col-1 img,
+.custom-col-2 img,
+.custom-col-3 img {
+  max-height: 150px;
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Section Headings */
+.container h2 {
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+
+
+
+
 
 /* Page 2 & 3 Reuse These for Custom Columns */
 .custom-col-1 {
