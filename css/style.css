@@ -2,39 +2,54 @@
 .navbar {
   background-color: #2e3b4e !important;
 }
+
 .nav-link {
   color: #ffffff !important;
   margin-right: 15px;
   transition: color 0.3s ease;
 }
+
 .nav-link.active {
   color: #ffc107 !important; 
   font-weight: bold;
 }
+
 .nav-link:hover {
   color: #ffc107 !important;
 }
 
-/* ----- Grid Custom Columns ----- */
-/* Index Page Custom Columns */
+/* ----- Grid Custom Columns for index.html ----- */
 .col-1-custom {
   background-color: #3d8a99; 
   padding: 20px;
   color: white;
   text-align: center;
 }
+
 .col-2-custom {
   background-color: #f3ba58; 
   padding: 20px;
   color: white;
   text-align: center;
 }
+
 .col-3-custom {
   background-color: #dd7169; 
   padding: 20px;
   color: black;
   text-align: center;
 }
+
+/* Optional: Add spacing between sections if needed */
+.container h2 {
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
 
 /* Page 2 & 3 Reuse These for Custom Columns */
 .custom-col-1 {
