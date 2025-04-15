@@ -1,4 +1,4 @@
-/* ----- Navbar Styling ----- */
+/* ===== Navbar Styling ===== */
 .navbar {
   background-color: #2e3b4e !important;
 }
@@ -10,7 +10,7 @@
 }
 
 .nav-link.active {
-  color: #ffc107 !important; 
+  color: #ffc107 !important;
   font-weight: bold;
 }
 
@@ -18,59 +18,29 @@
   color: #ffc107 !important;
 }
 
-/* ----- Grid Custom Columns for index.html ----- */
+/* ===== Grid Columns – Index (Grid 1) ===== */
 .col-1-custom {
-  background-color: #3d8a99; 
+  background-color: #3d8a99;
   padding: 20px;
   color: white;
   text-align: center;
 }
 
 .col-2-custom {
-  background-color: #f3ba58; 
+  background-color: #f3ba58;
   padding: 20px;
   color: white;
   text-align: center;
 }
 
 .col-3-custom {
-  background-color: #dd7169; 
+  background-color: #dd7169;
   padding: 20px;
   color: black;
   text-align: center;
 }
 
-/* Optional: Add spacing between sections if needed */
-.container h2 {
-  font-weight: bold;
-}
-
-.container p {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-/* ----- Grid Custom Columns for page 2 & 3 ----- */
-.custom-col-1 {
-  background-color: #3d8a99;
-  padding: 20px;
-  color: white;
-}
-
-.custom-col-2 {
-  background-color: #f3ba58;
-  padding: 20px;
-  color: white;
-}
-
-.custom-col-3 {
-  background-color: #dd7169;
-  padding: 20px;
-  color: white;
-}
-
-
-/* ----- Grid Custom Columns ----- */
+/* ===== Grid Columns – Page 2 & 3 ===== */
 .custom-col-1 {
   background-color: #3d8a99;
   padding: 20px;
@@ -92,7 +62,6 @@
   border-radius: 10px;
 }
 
-/* ----- Image Styling for Grid 3 ----- */
 .custom-col-1 img,
 .custom-col-2 img,
 .custom-col-3 img {
@@ -103,17 +72,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Optional: Section Headings */
-.container h2 {
-  font-weight: bold;
-}
-
-.container p {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-/* ----- Card Styling ----- */
+/* ===== Cards Page Styling ===== */
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -148,7 +107,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* ----- Modal Styling (Optional Enhancements) ----- */
+/* ===== Modals (from Cards Page) ===== */
 .modal-content {
   border-radius: 15px;
 }
@@ -160,17 +119,7 @@
   margin-bottom: 15px;
 }
 
-/* ----- Text Enhancements for Headings ----- */
-.container h2 {
-  font-weight: bold;
-}
-
-.container p {
-  font-size: 1.1rem;
-  color: #333;
-}
-
-/* ----- Carousel Styling ----- */
+/* ===== Carousel Styling ===== */
 .carousel-item img {
   border-radius: 10px;
   max-height: 500px;
@@ -182,3 +131,14 @@
   padding: 15px;
   border-radius: 10px;
 }
+
+/* ===== Headings and Paragraphs ===== */
+.container h2 {
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
